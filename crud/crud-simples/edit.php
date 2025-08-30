@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div>Email: <input type="email" name="email" value="<?= htmlspecialchars($user["email"]) ?>" required></div>
         <div>endereco: <input type="text" name="endereco" value="<?= htmlspecialchars($user["endereco"]) ?>" require d>
         </div>
-        <div>telefone: <input type="text" name="tel" value="<?= htmlspecialchars($user["telefone"]) ?>" required></div>
+        <div>telefone: <input type="text" name="telefone" value="<?= htmlspecialchars($user["telefone"]) ?>" required></div>
         <button type="submit">Atualizar</button>
     </form>
     <p><a href="index.php">Voltar</a></p>
